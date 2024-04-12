@@ -1,0 +1,64 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good afternoon", "Hi there", "Hey, how are you?"],
+            "responses": ["Hello! Welcome to Balaji Construction. How can I assist you today?"],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Goodbye", "See you later", "Bye", "Take care", "Have a great day", "Until next time"],
+            "responses": ["Goodbye! Don't hesitate to reach out if you need anything else."],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "Appreciate it", "Thank you so much"],
+            "responses": ["You're welcome! I'm here to help."],
+            "context": [""]
+        },
+        {
+            "tag": "project_inquiry",
+            "patterns": ["Can you provide details about ongoing projects?", "What construction projects are currently underway?", "Tell me about the projects you're working on", "What are your current projects?"],
+            "responses": ["Certainly! We have several exciting projects in progress. Would you like information about a specific project?"],
+            "context": [""]
+        },
+        {
+            "tag": "address_inquiry",
+            "patterns": ["Where is your company located?", "What is your address?", "How can I find you?", "Where are you based?"],
+            "responses": ["Our company is located at Theni."],
+            "context": [""]
+        },
+        {
+            "tag": "cost_estimation",
+            "patterns": ["Can you provide an estimate for a construction project?", "How much does it cost for construction work?", "Do you offer cost estimation services?", "What is the cost estimation process?"],
+            "responses": ["Certainly! We offer cost estimation services. Please provide details about your project, and we'll provide you with an estimate."],
+            "context": [""]
+        },
+        {
+            "tag": "upcoming_events",
+            "patterns": ["Do you have any upcoming events?", "Are there any events or workshops planned?", "Can you tell me about upcoming events?", "What events do you have scheduled?"],
+            "responses": ["Yes, we have several upcoming events and workshops. Please visit our website or contact us for more information."],
+            "context": [""]
+        },
+        {
+            "tag": "service_inquiry",
+            "patterns": ["What services do you offer?", "Can you tell me about your services?", "What types of construction projects do you undertake?"],
+            "responses": ["We offer a wide range of construction services including residential, commercial, and industrial projects. Our services include new construction, renovations, and more."],
+            "context": [""]
+        },
+        {
+            "tag": "testimonial",
+            "patterns": ["Do you have any customer testimonials?", "Can you share feedback from previous clients?", "What do your customers say about you?"],
+            "responses": ["Certainly! We have received positive feedback from many satisfied customers. Would you like to hear some testimonials?"],
+            "context": [""]
+        },
+        {
+            "tag": "appointment_scheduling",
+            "patterns": ["Can I schedule an appointment?", "How can I book a consultation?", "Is it possible to meet with a representative?"],
+            "responses": ["Of course! To schedule an appointment, please contact our office during business hours. We'll be happy to arrange a consultation for you."],
+            "context": [""]
+        }
+    ]
+}
